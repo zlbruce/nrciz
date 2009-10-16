@@ -28,7 +28,6 @@ int gcd(int a,int b)
 	int c=0;
 	do{
 		c=mod(a,b);
-		//printf("%d %% %d =%d\n",a,b,c);
 		if(c==0)
 			return b;
 		a=b;
